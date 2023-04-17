@@ -31,18 +31,3 @@ export const MenuItem = styled.a`
     color: #555555;
   }
 `;
-
-export const LoginButton = styled.button`
-  margin-left: 2rem;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  color: #ffffff;
-  background-color: #3db46d;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #2ea256;
-  }
-`;

@@ -1,18 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
-import Login from './components/Login';
-import SongList from './components/SongList';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import FeaturesSection from './components/FeaturesSection';
+import HowItWorksSection from './components/HowItWorksSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import Footer from './components/Footer';
+import GlobalStyle from './GlobalStyle';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/login" component={Login} />
-        <Route path="/song-list" component={SongList} />
-      </Switch>
-    </Router>
+    <div>
+      <GlobalStyle />
+      <Navbar />
+      <HeroSection />
+      <FeaturesSection />
+      <HowItWorksSection />
+      <TestimonialsSection />
+      <Footer />
+    </div>
   );
 }
 

@@ -3,9 +3,9 @@ import { Container, Heading, CardsContainer } from './styles';
 import FeatureCard from './FeatureCard';
 
 // Replace with your own icons
-import Icon1 from '../assets/images/icon-1.svg';
-import Icon2 from '../assets/images/icon-2.svg';
-import Icon3 from '../assets/images/icon-3.svg';
+import Icon1 from '../../assets/images/icon-1.svg';
+import Icon2 from '../../assets/images/icon-2.svg';
+import Icon3 from '../../assets/images/icon-3.svg';
 
 const featuresData = [
   {
